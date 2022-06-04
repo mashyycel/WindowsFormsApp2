@@ -72,6 +72,12 @@
     <Compile Include="Properties\transactionHistory.Designer.cs">
       <DependentUpon>transactionHistory.cs</DependentUpon>
     </Compile>
+    <Compile Include="StaffSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffSales.Designer.cs">
+      <DependentUpon>StaffSales.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +98,9 @@
     </Compile>
     <EmbeddedResource Include="Properties\transactionHistory.resx">
       <DependentUpon>transactionHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffSales.resx">
+      <DependentUpon>StaffSales.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
